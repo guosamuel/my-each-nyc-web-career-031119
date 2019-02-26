@@ -1,4 +1,4 @@
-def my_each(collection)
+def my_each(collection) {|i| puts i}
   if block_give?
     counter = 0
   
