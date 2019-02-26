@@ -3,7 +3,7 @@ def my_each(collection)
     counter = 0
   
     while counter < collection.length
-      yield puts collection[counter]
+      yield collection[counter]
       counter = counter + 1
     end
   else
