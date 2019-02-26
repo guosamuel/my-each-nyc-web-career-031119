@@ -1,7 +1,11 @@
 def my_each(collection)
-  counter = 0
+  if block_give?
+    counter = 0
   
-  while counter < collection.length
-  
-  end
+    while counter < collection.length
+      yield collection[counter]
+      counter = counter + 1
+    end
+  else
+    "Whoops!"
 end
