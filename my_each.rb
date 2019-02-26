@@ -8,4 +8,5 @@ def my_each(collection)
     end
   else
     "Whoops!"
+  end
 end
